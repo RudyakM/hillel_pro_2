@@ -26,3 +26,12 @@
     1. pip install {text}
     2. pip freeze > requirements.txt
     3. pip install -r requirements.txt
+
+# Usage
+    black ./
+    black --check ./
+
+    flake8 ./
+
+    isort ./
+    isort --check-only ./
