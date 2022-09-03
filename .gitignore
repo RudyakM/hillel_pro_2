@@ -1,1 +1,12 @@
-venv
+# venv folder
+venv/
+
+# Editors / IDE
+.idea/
+.vscode/
+
+# Python stuff
+__pycache__/
+
+# Big files
+rockyou.txt
