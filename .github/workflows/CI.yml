@@ -15,8 +15,10 @@ jobs:
           
       - name: Install deps 
         run: pip install -r requirements.txt
+      
       - name: Check linter
         run: flake8 ./
+      
       - name: Check formatters
         run: black --check ./ && isort --check-only ./
  
